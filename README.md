@@ -1,4 +1,4 @@
 kiddy1
 ======
 
-this is a test repo
+please look at  the camat.R file
