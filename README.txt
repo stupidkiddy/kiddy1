@@ -2,7 +2,7 @@
 
 
 #This is a pair of functions work together to inverse the matrix assigned to the function, 
-#the main structure looks like below
+#the main structure looks like below , but the real  R file please look the camat.R file, thanks
 
 
 
