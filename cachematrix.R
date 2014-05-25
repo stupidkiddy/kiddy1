@@ -1,6 +1,6 @@
 ## Put comments here that give an overall description of what your
 ## functions do
-##  today 
+
 ## Write a short comment describing this function
 
 makeCacheMatrix <- function(x = matrix()) {
@@ -37,4 +37,6 @@ cacheSolve <- function(x, ...) {
 aa <-  matrix(c(4,2,7,6) , 2,2)
 makeCacheMatrix(aa)
 cacheSolve(makeCacheMatrix(aa) )
+
+
 
