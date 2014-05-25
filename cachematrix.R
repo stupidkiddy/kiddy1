@@ -2,6 +2,7 @@
 ## functions do
 
 ## Write a short comment describing this function
+## the makeCacheMatrix function start with reading in a matrix (x), m represent a blank matrix stored, by using inner function set  and get to add and get x into y and m, then use solve() to make the inverse matrix of x temporalily. since this function returns only a list of functions, so we need another function to display the inverse matrix.
 
 makeCacheMatrix <- function(x = matrix()) {
        m <- NULL
@@ -19,6 +20,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
+## the cacheSolve first confirm if anything present in m, if not, working proceeds. since the x here present the list returns by makeCacheMatrix(), so it can retrieve the data in the list and finally returns the inverse matrix.
 
 cacheSolve <- function(x, ...) {
        m <- x$getsolve()
