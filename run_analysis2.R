@@ -70,7 +70,7 @@ bb<-bb[,-1]
 #add the descriptive column names
 colnames(bb) <- coding$V4
 # write the .txt file 
-write.table(bb,file = "exercise2.txt",row.name=FALSE)
+write.table(bb,file = "exercise.txt",row.name=FALSE)
 
 
 
