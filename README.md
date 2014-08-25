@@ -2,7 +2,7 @@ To make a tidy dataset,
 
 First,  call in all the needed files
 
-then, change the column manes of the two files: y_test and sub_test into "aitvity" and "ID" for later use
+then, change the column names of the two files: y_test and sub_test into "aitvity" and "ID" for later use
 
 with this, Uses descriptive activity names to name the activities in the data set change the y_test set
 and, change the y_train set
